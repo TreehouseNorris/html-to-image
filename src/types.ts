@@ -40,6 +40,10 @@ export interface Options {
    */
   cacheBust?: boolean
   /**
+   * Cache bypass so we don't have CORS issues with cached images in Chrome
+   */
+  cacheDisable?: boolean
+  /**
    * Set false to use all URL as cache key.
    * Default: false | undefined - which strips away the query parameters
    */
